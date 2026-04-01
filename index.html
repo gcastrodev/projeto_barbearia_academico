@@ -6,29 +6,33 @@
     <title>Barbearia - Seleção de Serviços</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src='main.js' defer></script>
 </head>
 <body>
     <header>
-        <h1>Barbearia Castro</h1>
+        <h1><i class="fas fa-cut"></i> Barbearia Castro</h1>
         <p>Escolha os serviços para o seu visual</p>
     </header>
 
     <main id="app">
         <section class="servicos-container">
             <div class="card-servico">
+                <i class="fas fa-scissors icone"></i>
                 <h3>Corte</h3>
                 <p class="preco">R$ 35.00</p>
                 <button class="btn-adicionar">Adicionar</button>
             </div>
 
             <div class="card-servico">
+                <i class="fas fa-user-tie icone"></i>
                 <h3>Barba</h3>
                 <p class="preco">R$ 25.00</p>
                 <button class="btn-adicionar">Adicionar</button>
             </div>
 
             <div class="card-servico">
+                <i class="fas fa-eye icone"></i>
                 <h3>Sobrancelha</h3>
                 <p class="preco">R$ 15.00</p>
                 <button class="btn-adicionar">Adicionar</button>
@@ -37,7 +41,12 @@
 
         <section class="totalizador">
             <h2>Total da Compra: <span id="valor-total">R$ 0.00</span></h2>
+            <button id="btn-limpar" class="btn-limpar">Limpar</button>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2023 Barbearia Castro. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
