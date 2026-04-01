@@ -71,3 +71,22 @@ header p {
 .btn-adicionar:hover {
     background-color: #333;
 }
+
+/* Totalizador */
+.totalizador {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 4px solid #1a1a1a;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+}
+
+.totalizador h2 {
+    font-size: 1.8rem;
+}
+
+#valor-total {
+    color: #27ae60;
+}
